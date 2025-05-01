@@ -1,10 +1,13 @@
 {
-  "name": "ui-kit-example",
+  "name": "@fekdev/ui-kit-example",
   "private": false,
   "version": "0.0.1",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "dev:storybook": "storybook dev -p 6006",
