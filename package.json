@@ -1,7 +1,7 @@
 {
   "name": "@fekdev/ui-kit-example",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.0.5",
   "files": [
     "dist"
   ],
@@ -11,6 +11,14 @@
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./styles.css": "./dist/index.css"
+  },
   "scripts": {
     "build": "pnpm build:css && tsup",
     "dev:storybook": "storybook dev -p 6006",

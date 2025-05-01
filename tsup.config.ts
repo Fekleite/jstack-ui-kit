@@ -9,5 +9,4 @@ export default defineConfig({
   sourcemap: false,
   clean: true,
   dts: true,
-  // onSuccess: 'copy dist/styles.css dist/index.css',
 });
