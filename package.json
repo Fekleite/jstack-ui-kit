@@ -1,13 +1,14 @@
 {
   "name": "@fekdev/ui-kit-example",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "files": [
     "dist"
   ],
   "publishConfig": {
     "access": "public"
   },
+  "sideEffects": false,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
