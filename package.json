@@ -30,8 +30,7 @@
   "scripts": {
     "build": "tsup",
     "dev:storybook": "storybook dev -p 6006",
-    "build:storybook": "storybook build",
-    "build:css": "postcss src/styles/index.css -o dist/styles.css"
+    "build:storybook": "storybook build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.7",
